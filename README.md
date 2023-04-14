@@ -1,4 +1,4 @@
-# Menlyn Mall Guide
+# Garden Route Mall Guide
 
 ## Custom Chat bot based on ChatGPT
 
