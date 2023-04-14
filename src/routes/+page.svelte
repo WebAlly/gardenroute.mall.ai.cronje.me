@@ -64,13 +64,12 @@
 
 <div class="flex flex-col pt-4 w-full px-8 items-center gap-2">
 	<div>
-		<h1 class="text-2xl font-bold w-full text-center">Menlyn Mall Guide</h1>
+		<h1 class="text-2xl font-bold w-full text-center">Garden Route Mall Guide</h1>
 		<p class="text-sm italic">Powered by gpt-3.5-turbo</p>
 	</div>
 	<div class="h-[500px] w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 		<div class="flex flex-col gap-2">
-			<ChatMessage type="assistant" message="Hi, I am your Guide to Menlyn Mall, you can call me Menlyn Mall Guide or MMG or short. Discover Africa's most unique shopping experience, offering the greatest variety.
-			Spoil yourself in ultimate fashion, beauty and comfort in the heart of the city of Tshwane." />
+			<ChatMessage type="assistant" message="Hi, I am your Guide to Garden Route Mall, you can call me Garden Route Mall Guide or GRMG for short. Discover the ultimate shopping and entertainment experience at Garden Route Mall in George, South Africa. With a wide range of stores, restaurants, and exciting events throughout the year, it's the perfect destination for locals and tourists alike. You can ask me anything about the mall, it's shops, events, even where to park or how to get from place to place. Let's have some fun!" />
 			{#each chatMessages as message}
 				<ChatMessage type={message.role} message={message.content} />
 			{/each}
